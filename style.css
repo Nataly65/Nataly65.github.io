@@ -1,0 +1,1167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  border: 0;
+  vertical-align: baseline;
+  font-family: "NK57", "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: black;
+  overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  
+  height: 100%;
+}
+header {
+  background-image: url("img/gista.jpg");
+  height: 200px;
+  width: 100%;
+ 
+}
+.logo{
+  position: absolute;
+  padding-top: 10px;  
+    left: 45%;
+    size: 28px;
+
+}
+.central{
+  padding-top: 150px;
+}
+aside{
+  background-image: url("img/fon1.jpg"); 
+  
+}
+.box-left {
+  display: flex;
+  width: 30%;
+  height: 100%;
+  
+}
+
+.box-right {
+  display: flex;
+  width: 13%;
+  height: 100%;
+}
+section { 
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+  height: 100%;
+}
+.custom-btn {
+  width: 300px;
+  height: 60px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.btn-16 {
+  border: none;
+  color: #000;
+  z-index: 1;
+}
+.btn-16:after {
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: -1;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+.btn-16:hover {
+  color: #000;
+}
+.btn-16:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+.btn-16:active {
+  top: 2px;
+}
+
+.custom-btn {
+  width: 15.4vw;
+  height: 80px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.btn-16 {
+  border: none;
+  color: #000;
+  z-index: 1;
+}
+.btn-16:after {
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0px;
+  left: 0;
+  
+  direction: rtl;
+  z-index: -1;
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+.btn-16:hover {
+  color: #000;
+}
+.btn-16:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+}
+.btn-16:active {
+  top: 2px;
+}
+
+.part{  
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.part_1{
+ padding-top: 20px; 
+ margin-left:  20px;
+}
+.part_3{
+  padding-top: 80px;
+  }
+.part_4{
+  margin-bottom: 100px;
+}  
+.part_6{
+  margin-top: 200px;
+}
+.part_7{
+  margin-top: -200px;
+  margin-bottom: 50px;
+}
+.part_8{
+  margin-top:  -100px;
+  margin-bottom: 60px;
+}
+
+.info{
+  width: 60%;
+  padding-bottom: 50px;
+  align-items: center;
+  margin: auto;
+  padding-top: 10px;
+  font-size: 16px;
+  text-align: justify;
+}
+.limfa{
+  margin-left: 40%;
+  margin-bottom:-200px;
+}
+.skin{
+  margin-left: 30%;
+  
+}
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h2{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px; 
+  size: 20px;
+}
+a{
+  text-decoration:none;
+  font-size: 16px; 
+}
+.btn{
+  
+  width: 30px;
+  height: 30px;
+  border-color: black 2px solid;
+  border-radius: 50%;
+  background-color: rgba(243, 12, 12, 0.904);
+  text-align: center;
+}
+/*точки желудочно-кишечного тракта (часть 1)*/
+.btn-1{
+  position:relative ;
+        bottom: 430px; 
+        left:20px;
+}
+.btn-2{
+  position:relative ;
+        bottom: 490px;
+        left:190px;
+}
+.btn-3{
+  position: relative;
+        bottom: 470px;
+        left:200px;
+}
+.btn-4{
+  position: relative;
+        bottom:420px;
+        left:200px;
+}
+.btn-5{
+  position: relative;
+        bottom:380px;
+        left:225px;
+}
+.btn-6{
+  position: relative;
+        bottom:370px;
+        left:220px;
+}
+.btn-7{
+  position: relative;
+        bottom:315px;
+        left:220px;
+}
+.btn-8{
+  position: relative;
+        bottom:250px;
+        left:30px;
+}
+.btn-9{
+  position: relative;
+        bottom:415px;
+        right: 10px;
+}
+.btn-10{
+  position: relative;
+        bottom:475px;
+        right: 5px;
+}
+.btn-11{
+  position: relative;
+        bottom:533px;
+        right: 10px;
+}
+.btn-12{
+  position: relative;
+        bottom:600px;
+        right: 10px;
+}
+/*точки дыхательной системы (часть 2)*/
+.btn-21{
+  position: relative;
+        bottom:290px;
+        left: 20px;
+}
+.btn-22{
+  position: relative;
+        bottom:290px;
+        left: 20px;
+}
+.btn-23{
+  position: relative;
+        bottom:290px;
+        left: 20px;
+}
+.btn-24{
+  position: relative;
+        bottom:290px;
+        left: 20px;
+}
+.btn-25{
+  position: relative;
+        bottom:150px;
+       left:  65px;
+}
+.btn-26{
+  position: relative;
+        bottom:180px;
+        left: 90px;
+}
+.btn-27{
+  position: relative;
+        bottom:210px;
+        left: 120px;
+}
+.btn-28{
+  position: relative;
+        bottom:240px;
+        left: 150px;
+}
+/*Точки кровеносной системы*/
+.btn-31{
+  position: relative;
+        bottom:430px;
+        left: 95px;
+}
+.btn-32{
+  position: relative;
+        bottom:410px;
+        left: 225px;
+}
+.btn-33{
+  position: relative;
+        bottom:395px;
+        left: 225px;
+}
+.btn-34{
+  position: relative;
+        bottom:393px;
+        left: 225px;
+}
+.btn-35{
+  position: relative;
+        bottom:380px;
+        left: 225px;
+}
+.btn-36{
+  position: relative;
+        bottom:305px;
+        left: 225px;
+}
+.btn-37{
+  position: relative;
+        bottom:295px;
+        left: 225px;
+}
+.btn-38{
+  position: relative;
+        bottom:255px;
+        left: 225px;
+}
+.btn-39{
+  position: relative;
+        bottom:555px;
+        right: 10px;
+}
+.btn-310{
+  position: relative;
+        bottom:555px;
+        right: 15px;
+}
+.btn-311{
+  position: relative;
+        bottom:570px;
+        right: -10px;
+}
+.btn-312{
+  position: relative;
+        bottom:580px;
+        right: 10px;
+}
+.btn-313{
+  position: relative;
+        bottom:580px;
+        right: 10px;
+}
+.btn-314{
+  position: relative;
+        bottom:510px;
+        right: 10px;
+}
+.btn-315{
+  position: relative;
+        bottom:480px;
+        right: 0px;
+}
+/*Точки лимфатической системы*/
+.btn-41{
+  position: relative;
+        bottom:490px;
+       left: 210px;
+}
+.btn-42{
+  position: relative;
+        bottom:555px;
+        left: 180px;
+}
+.btn-421{
+  position: relative;
+        bottom:545px;
+        right: 0px;
+}
+.btn-422{
+  position: relative;
+        bottom:475px;
+        left: 50px;
+}
+.btn-423{
+  position: relative;
+        bottom:305px;
+        left: 20px;
+}
+.btn-43{
+  position: relative;
+        bottom:660px;
+       left: 40px;
+}
+.btn-431{
+  position: relative;
+        bottom:530px;
+      left: 40px;
+}
+.btn-432{
+  position: relative;
+        bottom:650px;
+        left: 225px;
+}
+.btn-433{
+  position: relative;
+        bottom:550px;
+        left: 200px;
+}
+
+/*Точки мочевыделительной системы*/
+.btn-51{
+  position: relative;
+        bottom:370px;
+        left: 20px;
+}
+
+.btn-52{
+  position: relative;
+        bottom:235px;
+        left: 15px;
+}
+.btn-53{
+  position: relative;
+        bottom:170px;
+        left: 15px;
+}
+.btn-54{
+  position: relative;
+        bottom:130px;
+        left: 35px;
+}
+.btn-55{
+  position: relative;
+        bottom:160px;
+        left: 105px;
+}
+
+/*Покровная система*/
+.btn-61{
+  position: relative;
+        bottom:460px;
+        left: 405px;
+}
+.btn-62{
+  position: relative;
+        bottom:390px;
+        left: 483px;
+}
+.btn-63{
+  position: relative;
+        bottom:355px;
+        left: 483px;
+}
+.btn-64{
+  position: relative;
+        bottom:260px;
+        left: 483px;
+}
+.btn-65{
+  position: relative;
+        bottom:200px;
+        left: 405px;
+}
+.btn-66{
+  position: relative;
+        bottom:215px;
+        left: 355px;
+}
+.btn-67{
+  position: relative;
+        bottom:220px;
+        left: 305px;
+}
+.btn-68{
+  position: relative;
+        bottom:330px;
+        left: 10px;
+}
+.btn-69{
+  position: relative;
+        bottom:390px;
+        left: 10px;
+}
+.btn-610{
+  position: relative;
+        bottom:575px;
+        left: 10px;
+}
+/*Эндокринная система*/
+.btn-71{
+  position: relative;
+        bottom:410px;
+        left: 205px;
+}
+.btn-72{
+  position: relative;
+        bottom:420px;
+        left: 60px;
+}
+.btn-73{
+  position: relative;
+        bottom:440px;
+        left: 205px;
+}
+.btn-74{
+  position: relative;
+        bottom:420px;
+        left: 205px;
+}
+.btn-75{
+  position: relative;
+        bottom:405px;
+        left: 255px;
+}
+.btn-76{
+  position: relative;
+        bottom:370px;
+        left: 255px;
+}
+.btn-77{
+  position: relative;
+        bottom:365px;
+        left: 255px;
+}
+.btn-78{
+  position: relative;
+        bottom:325px;
+        left: 60px;
+}
+.btn-79{
+  position: relative;
+        bottom:280px;
+        left: 265px;
+}
+/* Базовые стили слоя затемнения и модального окна  */
+.overlay {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+/* фон затемнения */
+  background-color: rgba(0, 0, 0, 0.65);
+  position: fixed; /* фиксированное поцизионирование */
+  cursor: default; /* тип курсара */
+}
+/* активируем слой затемнения */
+.overlay:target {
+  display: block;
+}
+/* стили модального окна */
+.popup {
+  top: -100%;
+  right: 0;
+  left: 50%;
+  font-size: 14px;
+  z-index: 20;
+  margin: 0;
+  width: 85%;
+  min-width: 320px;
+  max-width: 600px;
+/* фиксированное позиционирование, окно стабильно при прокрутке */
+  position: fixed;
+  padding: 15px;
+  border: 1px solid #383838;
+  background: #fefefe;
+/* скругление углов */
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  font: 14px/18px 'Tahoma', Arial, sans-serif;
+/* внешняя тень */
+  -webkit-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+  -moz-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+  -ms-box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+  box-shadow: 0 15px 20px rgba(0,0,0,.22),0 19px 60px rgba(0,0,0,.3);
+  -webkit-transform: translate(-50%, -500%);
+  -ms-transform: translate(-50%, -500%);
+  -o-transform: translate(-50%, -500%);
+  transform: translate(-50%, -500%);
+  -webkit-transition: -webkit-transform 0.6s ease-out;
+  -moz-transition: -moz-transform 0.6s ease-out;
+  -o-transition: -o-transform 0.6s ease-out;
+  transition: transform 0.6s ease-out;
+}
+/* активируем модальный блок */
+.overlay:target+.popup {
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  top: 20%;
+}
+/* формируем кнопку закрытия */
+.close {
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  padding: 0;
+  border: 2px solid #ccc;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  background-color: rgba(61, 61, 61, 0.8);
+  -webkit-box-shadow: 0px 0px 10px #000;
+  -moz-box-shadow: 0px 0px 10px #000;
+  box-shadow: 0px 0px 10px #000;
+  text-align: center;
+  text-decoration: none;
+  font: 13px/20px 'Tahoma', Arial, sans-serif;
+  font-weight: bold;
+  -webkit-transition: all ease .8s;
+  -moz-transition: all ease .8s;
+  -ms-transition: all ease .8s;
+  -o-transition: all ease .8s;
+  transition: all ease .8s;
+}
+.close:before {
+  color: rgba(255, 255, 255, 0.9);
+  content: "X";
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+  font-size: 12px;
+}
+.close:hover {
+  background-color: rgba(252, 20, 0, 0.8);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);    
+}
+/* изображения внутри окна */
+.popup img {
+  width: 100%;
+  height: auto;
+}
+.box-left
+ {
+  position: fixed;
+  
+  width: 15%;
+  height: 100%;
+   
+}
+.box-right
+ {
+  position: fixed;
+  top: 800;
+  right: 15px ;
+  width: 15%;
+  height: 100%;
+   
+}
+/*нервная система*/
+.part_10{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.part_11{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  
+}
+.part_12{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  
+}
+.part_13{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  
+}
+.part_14{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  
+}
+
+.info1{
+  border:2px solid rgb(255, 238, 80);
+  width: 60%;
+  padding: 10px;
+  align-items: center;  
+  font-size: 16px;
+  text-align: justify;
+  margin-top: 30px;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+.info3{
+  text-align: center;
+  font-size: 18px;
+}
+.nerves1{position: relative;
+  bottom:550px;
+  left: 205px;
+}
+.nerves2{position: relative;
+  bottom:480px;
+  left: 285px;
+}
+.nerves3{position: relative;
+  bottom:200px;
+  left: 250px;
+}
+.nerves4{position: relative;
+  bottom:555px;
+  right:  20px;
+}
+
+/*Слайдер*/
+.slider {
+  position: relative;  
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+  height: 550px;
+	margin: 100px auto 0;
+	width: 66.4%;
+  padding: 5px;
+  border:solid 1px rgb(255, 238, 80) ;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.slider input[name="switch"] {
+  display: none;
+}
+
+.switch {
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  text-align: center;
+  width: 100%;
+}
+
+.switch label {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  margin: 0 3px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+  border-radius: 50%;
+  border: 5px solid #2f363c;
+  background-color: #738290;
+}
+
+#btn1:checked~.switch label[for="btn1"] {
+  background-color: white;
+}
+
+#btn2:checked~.switch label[for="btn2"] {
+  background-color: white;
+}
+
+#btn3:checked~.switch label[for="btn3"] {
+  background-color: white;
+}
+
+.slider-inner {
+  overflow: hidden;
+}
+
+.slides {
+  width: 300%;
+  transition: all 0.5s;
+}
+
+.slides .slade {
+  width: 680px;
+  height: 640px;
+  float: left;
+}
+
+.slade{
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+}
+
+.title1{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  }
+  .title2{
+    padding-top: 30px;
+    padding-bottom: 20px; 
+  }
+
+#btn1:checked~slider-inner slides {
+  transform: translate(0);
+}
+
+#btn2:checked~.slider-inner .slides {
+  transform: translate(-680px);
+}
+
+#btn3:checked~.slider-inner .slides {
+  transform: translate(-1360px);
+}
+
+/*Слайдер анализатор*/
+.wrapper {
+	height: 550px;
+	margin: 50px auto 100px;
+	position: relative;
+	width: 65.4vw;
+}
+
+.slider1 {
+	background-color:white;
+  border:solid 1px rgb(255, 238, 80) ;
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+.wrapper > input {
+	display: none;
+}
+.slides {
+	height: inherit;
+	position: absolute;
+	width: inherit;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+}
+.text{
+  padding: 20px;
+  font-size: 16px;
+}
+.title{
+ 
+  font-size: 18px;
+  text-align: center;
+}
+.wrapper .controls {
+	left: 50%;
+	margin-left: -98px;
+  bottom: 580px;
+	position: absolute;
+}
+
+.wrapper label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrapper label:after {
+	border: 2px solid rgb(248, 9, 9);
+	content: " ";
+	display: block;
+	height: 12px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 12px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+  background-color: #fedf9f;
+}
+.wrapper label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: background ease-in-out .5s;
+	-moz-transition: background ease-in-out .5s;
+	-o-transition: background ease-in-out .5s;
+	transition: background ease-in-out .5s;
+}
+
+.wrapper label:hover, 
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3),
+#slide4:checked ~ .controls label:nth-of-type(4),
+#slide5:checked ~ .controls label:nth-of-type(5) {
+	background: #ddd;
+}
+
+.slides {
+	height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;
+	z-index:0;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+}
+
+#slide1:checked ~ .slider1 > .slide1,
+#slide2:checked ~ .slider1 > .slide2,
+#slide3:checked ~ .slider1 > .slide3,
+#slide4:checked ~ .slider1 > .slide4,
+#slide5:checked ~ .slider1 > .slide5 {
+	opacity: 1;
+	z-index: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+/* слайдер для опорно-двигательной системы*/
+
+.wrap {
+	height: 550px;
+	margin: 100px auto 0;
+	position: relative;
+	width: 65.4vw;
+}
+
+.slider {
+	background-color:white;
+  border:solid 1px rgb(255, 238, 80) ;
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+	
+}
+.wrap > input {
+	display: none;
+}
+.slades {
+	height: inherit;
+	position: absolute;
+	width: inherit;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 10px;
+}
+.text{
+  padding: 20px;
+  font-size: 16px;
+}
+.title{
+ 
+  font-size: 18px;
+  text-align: center;
+}
+.wrap .controls {
+	left: 50%;
+	margin-left: -98px;
+  bottom: 600px;
+	position: absolute;
+}
+
+.wrap label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.wrap label:after {
+	border: 2px solid rgb(248, 9, 9);
+	content: " ";
+	display: block;
+	height: 12px;
+	left: -4px;
+	position: absolute;
+	top: -4px;
+	width: 12px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+  background-color: #fedf9f;
+}
+.wrap label {
+	cursor: pointer;
+	display: inline-block;
+	height: 8px;
+	margin: 25px 12px 0 16px;
+	position: relative;
+	width: 8px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: background ease-in-out .5s;
+	-moz-transition: background ease-in-out .5s;
+	-o-transition: background ease-in-out .5s;
+	transition: background ease-in-out .5s;
+}
+
+.wrap label:hover, 
+#slade1:checked ~ .controls label:nth-of-type(1),
+#slade2:checked ~ .controls label:nth-of-type(2),
+#slade3:checked ~ .controls label:nth-of-type(3),
+#slade4:checked ~ .controls label:nth-of-type(4),
+#slade5:checked ~ .controls label:nth-of-type(5) {
+	background: #ddd;
+}
+
+.slades {
+	height: inherit;
+	opacity: 0;
+	position: absolute;
+	width: inherit;
+	z-index: 1;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	-o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+}
+
+#slade1:checked ~ .slider > .slade1,
+#slade2:checked ~ .slider > .slade2,
+#slade3:checked ~ .slider > .slade3,
+#slade4:checked ~ .slider > .slade4,
+#slade5:checked ~ .slider > .slade5 {
+	opacity: 1;
+	z-index: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+.gen{
+  display: block;
+  background-image: url("img/gista.jpg");
+  height: 200px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  border: 2px solid rgb(248, 9, 9);
+  border-radius: 50%;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  
+
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: rgb(238, 23, 23);
+  transform: rotateY(180deg);
+}
